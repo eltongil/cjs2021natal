@@ -1,15 +1,38 @@
 
 body{
-    background-color: yellow;
+    background-color: rgba(223, 172, 63, 0.616);
     max-width: 1000px;
     min-width: 140px;
 }
 
-img.cabecalho{
+img.Cabecalho{
     color: yellow;
     border-top: 5%;
     border-left: auto;
     border-right: auto;
     width: 90%;
     max-width: 1100pc;
+}
+
+li.Ativo{
+    background-color: rgba(223, 172, 63, 0.616);
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+li.Disponivel{
+    background-color: rgb(211, 203, 193);
+    text-align: center;
+    color: darkblue;
+    padding: 5px;
+}
+
+ul.Horizontal{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0%;
+    width: 100%;
+    font-size: larger;
 }
