@@ -36,3 +36,9 @@ ul.Horizontal{
     width: 100%;
     font-size: larger;
 }
+
+a.noTexto{
+    color:blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
